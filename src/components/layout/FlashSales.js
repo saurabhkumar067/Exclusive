@@ -3,9 +3,10 @@ import React, { useEffect, useState } from "react";
 import ProductCard from "../products/ProductCard";
 import CardHeader from "./card/CardHeader";
 import { GoArrowLeft, GoArrowRight } from "react-icons/go";
-import CountDown from "./card/countDown";
+
 import Arrow from "../ArrowLefRight/Arrow";
 import Button from "../Button";
+import CountDown from "./card/CountDown";
 
 function FlashSales() {
   const [products, setProducts] = useState([]);
